@@ -1,0 +1,52 @@
+RewriteEngine On
+#HOSTING-VSubdom:gtest.ashal.eu
+RewriteCond %{HTTP_HOST} gtest\.ashal\.eu$ [NC]
+RewriteCond %{REQUEST_URI} !gtest/.*$
+RewriteRule ^(.*)$ gtest/$1 [L]
+
+#HOSTING-VSubdom:genshin.ashal.eu
+RewriteCond %{HTTP_HOST} genshin\.ashal\.eu$ [NC]
+RewriteCond %{REQUEST_URI} !genshin/.*$
+RewriteRule ^(.*)$ genshin/$1 [L]
+
+
+ErrorDocument 404 /404.php
+
+ErrorDocument 403 /403.php  
+
+RewriteCond %{HTTPS} off
+
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^(.*)\.html$ $1.php [L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

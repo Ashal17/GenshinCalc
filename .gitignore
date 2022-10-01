@@ -1,0 +1,12 @@
+/php/config_db.php
+/php/config_ocr.php
+/php/config_recaptcha.php
+/.idea/
+/.git/
+*.png
+*.psd
+*.jpg
+*.ai
+*.webp
+*.ttf
+*.ico

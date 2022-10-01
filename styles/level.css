@@ -1,0 +1,118 @@
+﻿.level_calc {
+display:flex;
+flex-direction:column;
+
+}
+
+.level_line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.level_icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+    .level_icon > input { /* HIDE RADIO */
+        visibility: hidden; /* Makes input not-clickable */
+        position: absolute; /* Remove input from document flow */
+    }
+
+        .level_icon > input + .level_text_container { /* IMAGE STYLES */
+            border: none;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--black);
+        }
+
+        .level_icon > input:enabled + .level_text_container { /* IMAGE STYLES */
+            border: 1px solid var(--black);
+            cursor: pointer;
+        }
+
+        .level_icon > input:enabled + .level_text_container .level_text { /* IMAGE STYLES */
+            color: var(--white-always);
+        }
+
+        .level_icon > input:disabled + .level_text_container { /* IMAGE STYLES */
+            border: 1px solid var(--grey-50);
+        }
+
+            .level_icon > input:disabled + .level_text_container .level_text { /* IMAGE STYLES */
+                color: var(--grey-50);
+                text-shadow:none;
+            }
+
+
+        .level_icon > input:checked + .level_text_container {
+            background-color: var(--green-glow);
+        }
+
+        .level_icon > input:enabled + .level_text_container:hover {
+            background-color: var(--green-glow);
+        }
+
+
+.level_arrow {
+    width: 20px;
+    height: 20px;
+    text-align:center;
+}
+
+.level_arrow.disabled_arrow {
+    color: var(--grey-50);
+    text-shadow:none;
+}
+
+.calc.level_result {
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.level_material_container {
+    display:flex;
+    flex-direction:row;
+    border:1px solid var(--black);
+    padding:5px;
+    align-items:center;
+    margin:3px;
+    width:calc(100% / 3 - 18px);
+}
+
+    .level_material_container .item_img_container {
+        width: 52px;
+        height: 52px;
+
+    }
+
+    .level_material_container .item_img {
+        max-width: 48px;
+        max-height: 48px;
+    }
+
+.level_material_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    margin:0px 5px;
+    align-items:center;
+}
+

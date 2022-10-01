@@ -1,0 +1,155 @@
+﻿.svg {
+background: none;
+}
+
+    .svg:before {
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: contain;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        -webkit-mask-size: contain;
+        background-color: var(--black);
+        content: '';
+        display: block;
+    }
+
+
+
+.svg-elemastery:before {
+    -webkit-mask-image: url(../images/icons/svg/elemastery.svg);
+    mask-image: url(../images/icons/svg/elemastery.svg); 
+}
+
+.svg-account-circle:before {
+    -webkit-mask-image: url(../images/icons/svg/account-circle.svg);
+    mask-image: url(../images/icons/svg/account-circle.svg);
+}
+.svg-alert-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/alert-outline.svg);
+    mask-image: url(../images/icons/svg/alert-outline.svg);
+}
+.svg-arrow-up-bold-hexagon-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/arrow-up-bold-hexagon-outline.svg);
+    mask-image: url(../images/icons/svg/arrow-up-bold-hexagon-outline.svg);
+}
+.svg-code-tags:before {
+    -webkit-mask-image: url(../images/icons/svg/code-tags.svg);
+    mask-image: url(../images/icons/svg/code-tags.svg);
+}
+.svg-content-copy:before {
+    -webkit-mask-image: url(../images/icons/svg/content-copy.svg);
+    mask-image: url(../images/icons/svg/content-copy.svg);
+}
+.svg-delete-forever:before {
+    -webkit-mask-image: url(../images/icons/svg/delete-forever.svg);
+    mask-image: url(../images/icons/svg/delete-forever.svg);
+}
+.svg-discord:before {
+    -webkit-mask-image: url(../images/icons/svg/discord.svg);
+    mask-image: url(../images/icons/svg/discord.svg);
+}
+.svg-download:before {
+    -webkit-mask-image: url(../images/icons/svg/download.svg);
+    mask-image: url(../images/icons/svg/download.svg);
+}
+.svg-download-multiple:before {
+    -webkit-mask-image: url(../images/icons/svg/download-multiple.svg);
+    mask-image: url(../images/icons/svg/download-multiple.svg);
+}
+.svg-eye-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/eye-outline.svg);
+    mask-image: url(../images/icons/svg/eye-outline.svg);
+}
+.svg-filter-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/filter-outline.svg);
+    mask-image: url(../images/icons/svg/filter-outline.svg);
+}
+.svg-flare:before {
+    -webkit-mask-image: url(../images/icons/svg/flare.svg);
+    mask-image: url(../images/icons/svg/flare.svg);
+}
+.svg-hospital:before {
+    -webkit-mask-image: url(../images/icons/svg/hospital.svg);
+    mask-image: url(../images/icons/svg/hospital.svg);
+}
+.svg-chevron-double-down:before {
+    -webkit-mask-image: url(../images/icons/svg/chevron-double-down.svg);
+    mask-image: url(../images/icons/svg/chevron-double-down.svg);
+}
+.svg-chevron-down:before {
+    -webkit-mask-image: url(../images/icons/svg/chevron-down.svg);
+    mask-image: url(../images/icons/svg/chevron-down.svg);
+}
+.svg-chevron-up:before {
+    -webkit-mask-image: url(../images/icons/svg/chevron-up.svg);
+    mask-image: url(../images/icons/svg/chevron-up.svg);
+}
+.svg-image:before {
+    -webkit-mask-image: url(../images/icons/svg/image.svg);
+    mask-image: url(../images/icons/svg/image.svg);
+}
+.svg-lock:before {
+    -webkit-mask-image: url(../images/icons/svg/lock.svg);
+    mask-image: url(../images/icons/svg/lock.svg);
+}
+.svg-lock-open:before {
+    -webkit-mask-image: url(../images/icons/svg/lock-open.svg);
+    mask-image: url(../images/icons/svg/lock-open.svg);
+}
+.svg-minus-circle-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/minus-circle-outline.svg);
+    mask-image: url(../images/icons/svg/minus-circle-outline.svg);
+}
+.svg-moon-waning-crescent:before {
+    -webkit-mask-image: url(../images/icons/svg/moon-waning-crescent.svg);
+    mask-image: url(../images/icons/svg/moon-waning-crescent.svg);
+}
+.svg-pin-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/pin-outline.svg);
+    mask-image: url(../images/icons/svg/pin-outline.svg);
+}
+.svg-plus-circle-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/plus-circle-outline.svg);
+    mask-image: url(../images/icons/svg/plus-circle-outline.svg);
+}
+.svg-shield-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/shield-outline.svg);
+    mask-image: url(../images/icons/svg/shield-outline.svg);
+}
+.svg-square-edit-outline:before {
+    -webkit-mask-image: url(../images/icons/svg/square-edit-outline.svg);
+    mask-image: url(../images/icons/svg/square-edit-outline.svg);
+}
+.svg-star-four-points:before {
+    -webkit-mask-image: url(../images/icons/svg/star-four-points.svg);
+    mask-image: url(../images/icons/svg/star-four-points.svg);
+}
+.svg-sword:before {
+    -webkit-mask-image: url(../images/icons/svg/sword.svg);
+    mask-image: url(../images/icons/svg/sword.svg);
+}
+.svg-sword-cross:before {
+    -webkit-mask-image: url(../images/icons/svg/sword-cross.svg);
+    mask-image: url(../images/icons/svg/sword-cross.svg);
+}
+.svg-target-variant:before {
+    -webkit-mask-image: url(../images/icons/svg/target-variant.svg);
+    mask-image: url(../images/icons/svg/target-variant.svg);
+}
+.svg-transfer-left:before {
+    -webkit-mask-image: url(../images/icons/svg/transfer-left.svg);
+    mask-image: url(../images/icons/svg/transfer-left.svg);
+}
+.svg-transfer-right:before {
+    -webkit-mask-image: url(../images/icons/svg/transfer-right.svg);
+    mask-image: url(../images/icons/svg/transfer-right.svg);
+}
+.svg-upload:before {
+    -webkit-mask-image: url(../images/icons/svg/upload.svg);
+    mask-image: url(../images/icons/svg/upload.svg);
+}
+.svg-white-balance-sunny:before {
+    -webkit-mask-image: url(../images/icons/svg/white-balance-sunny.svg);
+    mask-image: url(../images/icons/svg/white-balance-sunny.svg);
+}
